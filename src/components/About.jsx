@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Users, Globe, Award, Target, Rocket, Heart } from 'lucide-react';
-const officeImg = '/assets/about_office.png';
-const codeImg = '/assets/about_code.png';
-const teamImg = '/assets/about_team.png';
-const abstractImg = '/assets/about_abstract.png';
+const officeImg = 'https://bucghzn379yrpbdu.public.blob.vercel-storage.com/VSeyal/about_office.png';
+const codeImg = 'https://bucghzn379yrpbdu.public.blob.vercel-storage.com/VSeyal/about_code.png';
+const teamImg = 'https://bucghzn379yrpbdu.public.blob.vercel-storage.com/VSeyal/about_team.png';
+const abstractImg = 'https://bucghzn379yrpbdu.public.blob.vercel-storage.com/VSeyal/about_abstract.png';
 
 const About = () => {
   const fadeIn = {
