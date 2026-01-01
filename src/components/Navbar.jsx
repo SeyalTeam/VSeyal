@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +40,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" onClick={(e) => handleLinkClick(e, '#')} className="flex items-center gap-2 cursor-pointer group">
           <div className="p-2 bg-brand-primary/10 rounded-lg group-hover:bg-brand-primary/20 transition-colors">
-            <Code2 className="w-6 h-6 text-brand-primary" />
+            <img src="https://bucghzn379yrpbdu.public.blob.vercel-storage.com/VSeyal/favicon.png" alt="VSEYAL Logo" className="w-6 h-6" />
           </div>
           <span className="text-xl font-bold tracking-wider text-white">
             VSEYAL
