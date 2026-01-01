@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <h2 className="text-2xl font-bold text-white mb-4">VSEYAL</h2>
             <p className="text-gray-400 max-w-sm">
-              We build the future of digital interaction with premium engineering and design.
+              Building the future of digital interaction through design and engineering.
             </p>
           </div>
           

@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Users, Globe, Award, Target, Rocket, Heart } from 'lucide-react';
-import officeImg from '/Users/castromurugan/.gemini/antigravity/brain/be895798-3630-4ef2-8137-ad51d5df21ec/about_office_1_1767250571675.png';
-import codeImg from '/Users/castromurugan/.gemini/antigravity/brain/be895798-3630-4ef2-8137-ad51d5df21ec/about_code_2_1767250586600.png';
-import teamImg from '/Users/castromurugan/.gemini/antigravity/brain/be895798-3630-4ef2-8137-ad51d5df21ec/about_team_3_1767250603192.png';
-import abstractImg from '/Users/castromurugan/.gemini/antigravity/brain/be895798-3630-4ef2-8137-ad51d5df21ec/about_abstract_4_1767250618302.png';
+const officeImg = '/assets/about_office.png';
+const codeImg = '/assets/about_code.png';
+const teamImg = '/assets/about_team.png';
+const abstractImg = '/assets/about_abstract.png';
 
 const About = () => {
   const fadeIn = {

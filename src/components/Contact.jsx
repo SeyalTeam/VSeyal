@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, Send, CheckCircle, MessageSquare, MapPin } from 'lucide-react';
-import contactImg from '/Users/castromurugan/.gemini/antigravity/brain/be895798-3630-4ef2-8137-ad51d5df21ec/contact_support_avatar_1767257381810.png';
+const contactImg = '/assets/contact_support.png';
 
 const Contact = () => {
   const [formState, setFormState] = useState({
